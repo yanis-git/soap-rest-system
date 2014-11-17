@@ -225,3 +225,9 @@ Si l'id est menquant dans l'url retourne une 409, chaques paramètres GET sont o
 **DELETE**
 
 *Methode non supportée*
+
+
+CREDIT
+------
+
+Creative common && beerware
