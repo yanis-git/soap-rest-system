@@ -1,0 +1,103 @@
+/*TODO : add .spot-form-wrapper*/
+.select-continents-wrapper, .select-countries-wrapper, .autocomplete-town-wrapper{
+	display: none;
+}
+.ui-autocomplete {
+	max-height: 300px;
+	overflow-y: auto;
+	/* prevent horizontal scrollbar */
+	overflow-x: hidden;
+}
+#description{
+    display: inline;
+    float: right;
+    padding: 20px;
+    background-color: #eee;
+}
+
+.inline{
+    display: inline;
+}
+
+.detailBox {
+    /*width:320px;*/
+    border:1px solid #bbb;
+}
+
+.pseudoBox {
+    text-decoration: underline;
+    font-style: bold;
+}
+ 
+.titleBox {
+    background-color:#fdfdfd;
+    padding:10px;
+}
+.titleBox label{
+  color:#444;
+  margin:0;
+  display:inline-block;
+}
+
+.commentBox {
+    padding:10px;
+    border-top:1px dotted #bbb;
+}
+.commentBox .form-group:first-child, .actionBox .form-group:nth-child(1) {
+    padding-bottom: 10px;
+}
+
+.commentBox .form-group:first-child, .actionBox .form-group:nth-child(2) {
+    width:63%;
+    padding-bottom: 10px;
+}
+
+.commentBox .form-group:first-child, .actionBox .form-group:nth-child(4) {
+    width:75%;
+}
+
+.commentBox .form-group:nth-child(2), .actionBox .form-group:nth-child(5) {
+    width:23%;
+}
+.actionBox .form-group * {
+    width:100%;
+}
+.taskDescription {
+    margin-top:10px 0;
+}
+.commentList {
+    padding:0;
+    list-style:none;
+    max-height:200px;
+    overflow:auto;
+    border-bottom: 1px dotted #bbb;
+}
+.commentList li {
+    margin:0;
+    margin-top:15px;
+}
+.commentList li > div {
+    display:table-cell;
+}
+.commenterImage {
+    width:30px;
+    margin-right:5px;
+    height:100%;
+    float:left;
+}
+.commenterImage img {
+    width:100%;
+    border-radius:50%;
+}
+.commentText p {
+    margin:0;
+}
+.sub-text {
+    color:#aaa;
+    font-family:verdana;
+    font-size:11px;
+}
+.actionBox {
+    border-top:1px dotted #bbb;
+    padding:10px;
+}
